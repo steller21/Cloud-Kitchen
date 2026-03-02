@@ -7,10 +7,8 @@
 </head>
 <body>
     <?php
-    include("db.php");
-    if($conn){
-        echo "Database connected successfully";
-    }
-    ?>
+header("Location: login.php");
+exit();
+?>
 </body>
 </html>
